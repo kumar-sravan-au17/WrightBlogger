@@ -1,0 +1,46 @@
+.btn {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 16px;
+}
+
+.btn:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+}
+
+.btn:active {
+    background-color: #e6e6e6;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
+
+.btn:focus {
+    outline: 1px transparent;
+}
+
+.btn:before {
+    display: none;
+}
+
+.btn:-webkit-details-marker {
+    display: none;
+}
+
+.primary {
+    background-color: rgb(78, 78, 230);
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    .btn {
+        align-self: flex-start;
+    }
+}

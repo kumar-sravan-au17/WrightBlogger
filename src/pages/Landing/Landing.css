@@ -1,0 +1,27 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: white;
+}
+
+.form-container {
+    display: grid;
+    gap: 10px;
+}
+
+.btn-container {
+    justify-content: space-evenly;
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .btn-container {
+        justify-content: unset;
+    }
+}
