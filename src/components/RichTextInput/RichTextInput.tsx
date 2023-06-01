@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import "./RichTextInput.css"
 import JoditEditor from 'jodit-react'
 import { RichTextInputProps } from '../../Types'
